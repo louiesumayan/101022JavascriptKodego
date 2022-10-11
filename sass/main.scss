@@ -1,0 +1,13 @@
+$modal-backdrop-bg: #333;
+
+$primary: rgba(247, 23, 23, 0.451);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$louie-theme-colors: (
+  "cool": rgb(162, 110, 183),
+  "pogi": rgb(76, 219, 102),
+);
+
+$theme-colors: map-merge($louie-theme-colors, $theme-colors);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
